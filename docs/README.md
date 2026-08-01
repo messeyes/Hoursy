@@ -4,7 +4,6 @@
 
 **Authors:** Maria Eduarda Sousa Silva
 
-
 # Sumário
 
 Esta é uma proposta de implementação de um sistema para validação de certificados de horas complementares utilizando Inteligência Artificial. O sistema permitirá que estudantes enviem os certificados por meio de uma interface web, enquanto o backend será responsável por extrair informações relevantes do documento (título, carga horáriaa, instituição emissora e data de conclusão), analisar a sua compatibilidade com o curso informado e retornar as horas para o site do aluno. O objetivo é automatizar um processo atualmente realizado de forma manual, tornando-o mais rápido, padronizado e eficiente.
@@ -116,10 +115,10 @@ Conclusão: 15/06/2026
 
 ```
 {
-"similaridade": 0.94,
-"categoria": "Programação",
-"aprovado": true,
-"justificativa": "O certificado aborda programação em Java, conteúdo diretamente relacionado ao curso de Engenharia de Software."
+  "similaridade": 0.94,
+  "categoria": "Programação",
+  "aprovado": true,
+  "justificativa": "O certificado aborda programação em Java, conteúdo diretamente relacionado ao curso de Engenharia de Software."
 }
 ```
 
@@ -130,17 +129,17 @@ Conclusão: 15/06/2026
 
 ```
 {
-"certificado": {
-"titulo": "Java Programming Foundations",
-"instituicao": "Oracle",
-"cargaHoraria": 40,
-"dataConclusao": "2026-06-15"
+  "certificado": {
+  "titulo": "Java Programming Foundations",
+  "instituicao": "Oracle",
+  "cargaHoraria": 40,
+  "dataConclusao": "2026-06-15"
 },
-"analise": {
-"similaridade": 0.94,
-"categoria": "Programação",
-"aprovado": true,
-"justificativa": "O conteúdo é compatível com o curso informado."
+  "analise": {
+  "similaridade": 0.94,
+  "categoria": "Programação",
+  "aprovado": true,
+  "justificativa": "O conteúdo é compatível com o curso informado."
 }
 }
 ```
