@@ -1,0 +1,32 @@
+
+<head>
+  <meta charset="utf-8">
+  <title>RFC - Hoursy</title>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css">
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+  window.$docsify = {
+    name: 'Hoursy',
+    repo: 'messeyes/Hoursy',
+    mermaidConfig: {
+      querySelector: '.mermaid'
+    }
+  }
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
+
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+  window.mermaid = mermaid;
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+</body>
